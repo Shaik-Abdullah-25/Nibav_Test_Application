@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph.xml"
+    app:startDestination="@id/allNewsFragment">
+
+    <fragment
+        android:id="@+id/allNewsFragment"
+        android:name="com.example.nibavtestapplication.AllNewsFragment"
+        android:label="AllNewsFragment" />
+    <fragment
+        android:id="@+id/followingFragment"
+        android:name="com.example.nibavtestapplication.FollowingFragment"
+        android:label="FollowingFragment" />
+    <fragment
+        android:id="@+id/resourceCenterFragment"
+        android:name="com.example.nibavtestapplication.ResourceCenterFragment"
+        android:label="ResourceCenterFragment" />
+</navigation>
